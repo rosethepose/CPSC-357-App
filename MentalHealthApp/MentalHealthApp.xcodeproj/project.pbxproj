@@ -17,6 +17,8 @@
 		AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF1D27600F62000D2CF4 /* ContentView.swift */; };
 		AAB3CF4827600F68000D2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */; };
 		AAB3CF4927600F68000D2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */; };
+		AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */; };
+		AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		AAB3CF3C27600F68000D2CF4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB3CF4027600F68000D2CF4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AAB3CF4227600F68000D2CF4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */,
 				AAB3CF1D27600F62000D2CF4 /* ContentView.swift */,
 				AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */,
+				AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */,
 				AAB3CF4627600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF4427600F68000D2CF4 /* MentalHealthAppApp.swift in Sources */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */,
 				AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF4527600F68000D2CF4 /* MentalHealthAppApp.swift in Sources */,
 			);
