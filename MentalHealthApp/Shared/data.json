@@ -1,0 +1,23 @@
+[
+  {
+    "id": "000",
+    "name": "Goal 1",
+    "time": "12/20/2021 00:00:00",
+    "description": "Here is my description"
+    "isChecked": "false"
+  },
+  {
+    "id": "001",
+    "name": "Goal 2",
+    "time": "12/20/2021 00:00:00",
+    "description": "Here is my description"
+    "isChecked": "false"
+  },
+  {
+    "id": "002",
+    "name": "Goal 3",
+    "time": "12/20/2021 00:00:00",
+    "description": "Here is my description"
+    "isChecked": "false"
+  },
+]
