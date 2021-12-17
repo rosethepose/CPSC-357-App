@@ -19,8 +19,6 @@
 		AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF1D27600F62000D2CF4 /* ContentView.swift */; };
 		AAB3CF4827600F68000D2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */; };
 		AAB3CF4927600F68000D2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */; };
-		AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */; };
-		AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */; };
 		AAB3CF782762D811000D2CF4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF772762D810000D2CF4 /* data.json */; };
 		AAB3CF792762D811000D2CF4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF772762D810000D2CF4 /* data.json */; };
 		AAB3CF7E2762D9C5000D2CF4 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */; };
@@ -31,6 +29,8 @@
 		AAB3CF852762DC14000D2CF4 /* GoalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF832762DC14000D2CF4 /* GoalDetail.swift */; };
 		AAB3CF872762E187000D2CF4 /* GoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF862762E187000D2CF4 /* GoalData.swift */; };
 		AAB3CF882762E187000D2CF4 /* GoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF862762E187000D2CF4 /* GoalData.swift */; };
+		AACF92CA276C5665006CF25C /* NavigationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF92C9276C5664006CF25C /* NavigationList.swift */; };
+		AACF92CB276C5688006CF25C /* NavigationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF92C9276C5664006CF25C /* NavigationList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,12 +64,12 @@
 		AAB3CF3C27600F68000D2CF4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB3CF4027600F68000D2CF4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AAB3CF4227600F68000D2CF4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalList.swift; sourceTree = "<group>"; };
 		AAB3CF772762D810000D2CF4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		AAB3CF802762DB7D000D2CF4 /* GoalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStore.swift; sourceTree = "<group>"; };
 		AAB3CF832762DC14000D2CF4 /* GoalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetail.swift; sourceTree = "<group>"; };
 		AAB3CF862762E187000D2CF4 /* GoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalData.swift; sourceTree = "<group>"; };
+		AACF92C9276C5664006CF25C /* NavigationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				AAB3CF772762D810000D2CF4 /* data.json */,
+				AACF92C9276C5664006CF25C /* NavigationList.swift */,
 				AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */,
 				AAB3CF1D27600F62000D2CF4 /* ContentView.swift */,
 				AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */,
-				AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */,
 				AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */,
 				AAB3CF862762E187000D2CF4 /* GoalData.swift */,
 				AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */,
@@ -329,8 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */,
 				AA7ED4C0276BFA560033D54F /* AddNewGoal.swift in Sources */,
+				AACF92CA276C5665006CF25C /* NavigationList.swift in Sources */,
 				AAB3CF842762DC14000D2CF4 /* GoalDetail.swift in Sources */,
 				AAB3CF4627600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF7E2762D9C5000D2CF4 /* Goal.swift in Sources */,
@@ -344,8 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */,
 				AA7ED4C1276BFA560033D54F /* AddNewGoal.swift in Sources */,
+				AACF92CB276C5688006CF25C /* NavigationList.swift in Sources */,
 				AAB3CF852762DC14000D2CF4 /* GoalDetail.swift in Sources */,
 				AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF7F2762D9C5000D2CF4 /* Goal.swift in Sources */,

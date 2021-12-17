@@ -15,11 +15,7 @@ struct AddNewGoal: View {
     @State private var time: String = ""
     var body: some View {
         Form {
-            Section(header: Text("Car Details")) {
-                Image(systemName: "car.fill")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .padding()
+            Section(header: Text("Goal Details")) {
                 DataInput(title: "Goal Name", userInput: $name)
                 DataInput(title: "Description", userInput: $description)
                 DataInput(title: "Goal Due", userInput: $time)

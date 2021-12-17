@@ -14,9 +14,10 @@ struct Goal : Codable, Identifiable {
     var time : String
     var description : String
     var isChecked : Bool
-}
+    
+    mutating func goalAccomplished()
+    {
+        isChecked = true
+    }
 
-func goalAccomplished()
-{
-    print("Congratulations!")
 }

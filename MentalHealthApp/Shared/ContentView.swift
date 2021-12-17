@@ -1,31 +1,29 @@
 import SwiftUI
 
+
 struct ContentView: View {
+    @StateObject private var stores : GoalStore = GoalStore(goals: goalData)
     var body: some View {
         VStack{
-            Spacer()
-            Text("Mental Health Dashboard").font(.title).fontWeight(.bold)
-            Spacer()
-            VStack{ //list of goals
-                Text("My goals")
-                //on click send to goal page
-                
-            }
-            Spacer()
-            VStack {
-                Text("My week")
-                HStack{
-                    //week view
+            NavigationView {
+                    //display the list
+                List {
+                    NavigationLink(destination: NavigationList()){
+                        Text("View Goals")
+                    }
+                        
+                    NavigationLink(destination: AddNewGoal(goalStore: stores)){
+                        Text("Add a Goal")
+                    }
                 }
+                
+                
+                .navigationBarTitle(Text("My Mental Health"))
             }
-            Spacer()
-            Spacer()
-            Spacer()
-            Spacer()
+            
         }
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
