@@ -23,9 +23,9 @@ struct goalCell: View {
     }
 }
 
-struct goalList_Previews: PreviewProvider {
+struct goalList: View {
     @StateObject private var stores : GoalStore = GoalStore(goals: goalData)
-    static var previews: some View {
+    var body: some View {
         VStack{
             
             Text("My Goals").font(.title).fontWeight(.bold)
@@ -37,5 +37,11 @@ struct goalList_Previews: PreviewProvider {
             }
         }
         
+    }
+}
+struct goalList_Previews: PreviewProvider {
+    static var previews: some View {
+        goalList()
+    
     }
 }

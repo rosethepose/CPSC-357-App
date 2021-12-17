@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA7ED4C0276BFA560033D54F /* AddNewGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */; };
+		AA7ED4C1276BFA560033D54F /* AddNewGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */; };
 		AAB3CF3527600F68000D2CF4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF3427600F68000D2CF4 /* Tests_iOS.swift */; };
 		AAB3CF3727600F68000D2CF4 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF3627600F68000D2CF4 /* Tests_iOSLaunchTests.swift */; };
 		AAB3CF4127600F68000D2CF4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF4027600F68000D2CF4 /* Tests_macOS.swift */; };
@@ -49,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoal.swift; sourceTree = "<group>"; };
 		AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthAppApp.swift; sourceTree = "<group>"; };
 		AAB3CF1D27600F62000D2CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +123,7 @@
 				AAB3CF1D27600F62000D2CF4 /* ContentView.swift */,
 				AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */,
 				AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */,
+				AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */,
 				AAB3CF862762E187000D2CF4 /* GoalData.swift */,
 				AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */,
 				AAB3CF802762DB7D000D2CF4 /* GoalStore.swift */,
@@ -326,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */,
+				AA7ED4C0276BFA560033D54F /* AddNewGoal.swift in Sources */,
 				AAB3CF842762DC14000D2CF4 /* GoalDetail.swift in Sources */,
 				AAB3CF4627600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF7E2762D9C5000D2CF4 /* Goal.swift in Sources */,
@@ -340,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */,
+				AA7ED4C1276BFA560033D54F /* AddNewGoal.swift in Sources */,
 				AAB3CF852762DC14000D2CF4 /* GoalDetail.swift in Sources */,
 				AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF7F2762D9C5000D2CF4 /* Goal.swift in Sources */,
