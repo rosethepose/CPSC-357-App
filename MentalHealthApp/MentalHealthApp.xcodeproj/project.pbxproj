@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845D9663276C83DA001B8756 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D965E276C83DA001B8756 /* Mood.swift */; };
+		845D9664276C83DA001B8756 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D965E276C83DA001B8756 /* Mood.swift */; };
+		845D9665276C83DA001B8756 /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D965F276C83DA001B8756 /* MoodStore.swift */; };
+		845D9666276C83DA001B8756 /* MoodStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D965F276C83DA001B8756 /* MoodStore.swift */; };
+		845D9667276C83DA001B8756 /* MoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9660276C83DA001B8756 /* MoodDetail.swift */; };
+		845D9668276C83DA001B8756 /* MoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9660276C83DA001B8756 /* MoodDetail.swift */; };
+		845D966A276C83FB001B8756 /* MentalHealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9669276C83FB001B8756 /* MentalHealthAppApp.swift */; };
+		845D966B276C83FB001B8756 /* MentalHealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9669276C83FB001B8756 /* MentalHealthAppApp.swift */; };
+		845D966D276C847D001B8756 /* AddMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D966C276C847D001B8756 /* AddMood.swift */; };
+		845D966E276C847D001B8756 /* AddMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D966C276C847D001B8756 /* AddMood.swift */; };
+		845D9670276C8AA3001B8756 /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D966F276C8AA3001B8756 /* MoodData.swift */; };
+		845D9671276C8AA3001B8756 /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D966F276C8AA3001B8756 /* MoodData.swift */; };
+		845D9673276C8BD9001B8756 /* MoodData.json in Resources */ = {isa = PBXBuildFile; fileRef = 845D9672276C8BD9001B8756 /* MoodData.json */; };
+		845D9674276C8BD9001B8756 /* MoodData.json in Resources */ = {isa = PBXBuildFile; fileRef = 845D9672276C8BD9001B8756 /* MoodData.json */; };
+		845D9676276C8ECD001B8756 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D9675276C8ECD001B8756 /* Media.xcassets */; };
+		845D9677276C8ECD001B8756 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D9675276C8ECD001B8756 /* Media.xcassets */; };
+		845D9679276C99E5001B8756 /* MoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9678276C99E5001B8756 /* MoodList.swift */; };
+		845D967A276C99E5001B8756 /* MoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D9678276C99E5001B8756 /* MoodList.swift */; };
+		AA7ED4C0276BFA560033D54F /* AddNewGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */; };
+		AA7ED4C1276BFA560033D54F /* AddNewGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */; };
 		AAB3CF3527600F68000D2CF4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF3427600F68000D2CF4 /* Tests_iOS.swift */; };
 		AAB3CF3727600F68000D2CF4 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF3627600F68000D2CF4 /* Tests_iOSLaunchTests.swift */; };
 		AAB3CF4127600F68000D2CF4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF4027600F68000D2CF4 /* Tests_macOS.swift */; };
 		AAB3CF4327600F68000D2CF4 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF4227600F68000D2CF4 /* Tests_macOSLaunchTests.swift */; };
-		AAB3CF4427600F68000D2CF4 /* MentalHealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */; };
-		AAB3CF4527600F68000D2CF4 /* MentalHealthAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */; };
 		AAB3CF4627600F68000D2CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF1D27600F62000D2CF4 /* ContentView.swift */; };
 		AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF1D27600F62000D2CF4 /* ContentView.swift */; };
 		AAB3CF4827600F68000D2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */; };
 		AAB3CF4927600F68000D2CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */; };
-		AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */; };
-		AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */; };
 		AAB3CF782762D811000D2CF4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF772762D810000D2CF4 /* data.json */; };
 		AAB3CF792762D811000D2CF4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AAB3CF772762D810000D2CF4 /* data.json */; };
 		AAB3CF7E2762D9C5000D2CF4 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */; };
@@ -29,6 +45,8 @@
 		AAB3CF852762DC14000D2CF4 /* GoalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF832762DC14000D2CF4 /* GoalDetail.swift */; };
 		AAB3CF872762E187000D2CF4 /* GoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF862762E187000D2CF4 /* GoalData.swift */; };
 		AAB3CF882762E187000D2CF4 /* GoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3CF862762E187000D2CF4 /* GoalData.swift */; };
+		AACF92CA276C5665006CF25C /* NavigationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF92C9276C5664006CF25C /* NavigationList.swift */; };
+		AACF92CB276C5688006CF25C /* NavigationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF92C9276C5664006CF25C /* NavigationList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +67,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthAppApp.swift; sourceTree = "<group>"; };
+		845D965E276C83DA001B8756 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		845D965F276C83DA001B8756 /* MoodStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodStore.swift; sourceTree = "<group>"; };
+		845D9660276C83DA001B8756 /* MoodDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodDetail.swift; sourceTree = "<group>"; };
+		845D9669276C83FB001B8756 /* MentalHealthAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentalHealthAppApp.swift; sourceTree = "<group>"; };
+		845D966C276C847D001B8756 /* AddMood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMood.swift; sourceTree = "<group>"; };
+		845D966F276C8AA3001B8756 /* MoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodData.swift; sourceTree = "<group>"; };
+		845D9672276C8BD9001B8756 /* MoodData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoodData.json; sourceTree = "<group>"; };
+		845D9675276C8ECD001B8756 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		845D9678276C99E5001B8756 /* MoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodList.swift; sourceTree = "<group>"; };
+		AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoal.swift; sourceTree = "<group>"; };
 		AAB3CF1D27600F62000D2CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAB3CF2327600F68000D2CF4 /* MentalHealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalHealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +88,12 @@
 		AAB3CF3C27600F68000D2CF4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB3CF4027600F68000D2CF4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AAB3CF4227600F68000D2CF4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalList.swift; sourceTree = "<group>"; };
 		AAB3CF772762D810000D2CF4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		AAB3CF802762DB7D000D2CF4 /* GoalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStore.swift; sourceTree = "<group>"; };
 		AAB3CF832762DC14000D2CF4 /* GoalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetail.swift; sourceTree = "<group>"; };
 		AAB3CF862762E187000D2CF4 /* GoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalData.swift; sourceTree = "<group>"; };
+		AACF92C9276C5664006CF25C /* NavigationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +131,8 @@
 		AAB3CF1627600F61000D2CF4 = {
 			isa = PBXGroup;
 			children = (
-				AAB3CF1B27600F62000D2CF4 /* Shared */,
 				AAB3CF2A27600F68000D2CF4 /* macOS */,
+				AAB3CF1B27600F62000D2CF4 /* Shared */,
 				AAB3CF3327600F68000D2CF4 /* Tests iOS */,
 				AAB3CF3F27600F68000D2CF4 /* Tests macOS */,
 				AAB3CF2427600F68000D2CF4 /* Products */,
@@ -115,15 +142,24 @@
 		AAB3CF1B27600F62000D2CF4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				845D9672276C8BD9001B8756 /* MoodData.json */,
 				AAB3CF772762D810000D2CF4 /* data.json */,
-				AAB3CF1C27600F62000D2CF4 /* MentalHealthAppApp.swift */,
+				845D9669276C83FB001B8756 /* MentalHealthAppApp.swift */,
 				AAB3CF1D27600F62000D2CF4 /* ContentView.swift */,
-				AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */,
-				AAB3CF5E2762B1B2000D2CF4 /* goalList.swift */,
-				AAB3CF862762E187000D2CF4 /* GoalData.swift */,
+				AAB3CF832762DC14000D2CF4 /* GoalDetail.swift */,
 				AAB3CF7D2762D9C5000D2CF4 /* Goal.swift */,
 				AAB3CF802762DB7D000D2CF4 /* GoalStore.swift */,
-				AAB3CF832762DC14000D2CF4 /* GoalDetail.swift */,
+				AA7ED4BF276BFA560033D54F /* AddNewGoal.swift */,
+				AACF92C9276C5664006CF25C /* NavigationList.swift */,
+				AAB3CF862762E187000D2CF4 /* GoalData.swift */,
+				845D966C276C847D001B8756 /* AddMood.swift */,
+				845D9678276C99E5001B8756 /* MoodList.swift */,
+				845D966F276C8AA3001B8756 /* MoodData.swift */,
+				845D965F276C83DA001B8756 /* MoodStore.swift */,
+				845D9660276C83DA001B8756 /* MoodDetail.swift */,
+				845D965E276C83DA001B8756 /* Mood.swift */,
+				845D9675276C8ECD001B8756 /* Media.xcassets */,
+				AAB3CF1E27600F67000D2CF4 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -291,6 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3CF4827600F68000D2CF4 /* Assets.xcassets in Resources */,
+				845D9673276C8BD9001B8756 /* MoodData.json in Resources */,
+				845D9676276C8ECD001B8756 /* Media.xcassets in Resources */,
 				AAB3CF782762D811000D2CF4 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3CF4927600F68000D2CF4 /* Assets.xcassets in Resources */,
+				845D9674276C8BD9001B8756 /* MoodData.json in Resources */,
+				845D9677276C8ECD001B8756 /* Media.xcassets in Resources */,
 				AAB3CF792762D811000D2CF4 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,13 +365,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB3CF5F2762B1B2000D2CF4 /* goalList.swift in Sources */,
+				AA7ED4C0276BFA560033D54F /* AddNewGoal.swift in Sources */,
+				845D9663276C83DA001B8756 /* Mood.swift in Sources */,
+				AACF92CA276C5665006CF25C /* NavigationList.swift in Sources */,
 				AAB3CF842762DC14000D2CF4 /* GoalDetail.swift in Sources */,
+				845D9679276C99E5001B8756 /* MoodList.swift in Sources */,
+				845D966A276C83FB001B8756 /* MentalHealthAppApp.swift in Sources */,
+				845D9670276C8AA3001B8756 /* MoodData.swift in Sources */,
 				AAB3CF4627600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF7E2762D9C5000D2CF4 /* Goal.swift in Sources */,
 				AAB3CF812762DB7D000D2CF4 /* GoalStore.swift in Sources */,
+				845D966D276C847D001B8756 /* AddMood.swift in Sources */,
 				AAB3CF872762E187000D2CF4 /* GoalData.swift in Sources */,
-				AAB3CF4427600F68000D2CF4 /* MentalHealthAppApp.swift in Sources */,
+				845D9665276C83DA001B8756 /* MoodStore.swift in Sources */,
+				845D9667276C83DA001B8756 /* MoodDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,13 +386,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB3CF602762B1B2000D2CF4 /* goalList.swift in Sources */,
+				AA7ED4C1276BFA560033D54F /* AddNewGoal.swift in Sources */,
+				845D9664276C83DA001B8756 /* Mood.swift in Sources */,
+				AACF92CB276C5688006CF25C /* NavigationList.swift in Sources */,
 				AAB3CF852762DC14000D2CF4 /* GoalDetail.swift in Sources */,
+				845D967A276C99E5001B8756 /* MoodList.swift in Sources */,
+				845D966B276C83FB001B8756 /* MentalHealthAppApp.swift in Sources */,
+				845D9671276C8AA3001B8756 /* MoodData.swift in Sources */,
 				AAB3CF4727600F68000D2CF4 /* ContentView.swift in Sources */,
 				AAB3CF7F2762D9C5000D2CF4 /* Goal.swift in Sources */,
 				AAB3CF822762DB7D000D2CF4 /* GoalStore.swift in Sources */,
+				845D966E276C847D001B8756 /* AddMood.swift in Sources */,
 				AAB3CF882762E187000D2CF4 /* GoalData.swift in Sources */,
-				AAB3CF4527600F68000D2CF4 /* MentalHealthAppApp.swift in Sources */,
+				845D9666276C83DA001B8756 /* MoodStore.swift in Sources */,
+				845D9668276C83DA001B8756 /* MoodDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
