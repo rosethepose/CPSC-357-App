@@ -1,7 +1,7 @@
 # CPSC-357-App
 
 Rose Ramirez, Jacob Dunkle, Michele Okeyemi
-dunkle@chapman.edu
+roramirez@chapman.edu, dunkle@chapman.edu, okeyemi@chapman.edu
 Assignment: Final
 Course: CPSC 357
 Professor Cibrian
