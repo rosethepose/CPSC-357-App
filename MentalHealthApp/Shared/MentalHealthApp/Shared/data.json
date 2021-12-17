@@ -1,0 +1,23 @@
+[
+  {
+    "id": "aa32jj887hhg55",
+    "name": "Goal 1",
+    "time": "12/20/2021 00:00:00",
+    "description": "Here is my description",
+    "isChecked": false
+  },
+  {
+    "id": "bb32jj887hhg77",
+    "name": "Goal 2",
+    "time": "12/20/2021 00:00:00",
+    "description": "Here is my description",
+    "isChecked": false
+  },
+  {
+    "id": "cc32jj887hhg66",
+    "name": "Goal 3",
+    "time": "12/20/2021 00:00:00",
+    "description": "Here is my description",
+    "isChecked": false
+  },
+]
