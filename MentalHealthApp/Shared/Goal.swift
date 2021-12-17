@@ -6,8 +6,10 @@
 //
 
 import Foundation
-struct Goal : Codable, Identifiable, MutableDataProtocol {
-    let id : Int
+import SwiftUI
+
+struct Goal : Codable, Identifiable {
+    let id : String
     var name : String
     var time : String
     var description : String
