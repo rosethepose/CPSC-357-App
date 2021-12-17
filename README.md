@@ -1,10 +1,10 @@
 # CPSC-357-App
 
-Rose Ramirez, Jacob Dunkle, Michele Okeyemi
-roramirez@chapman.edu, dunkle@chapman.edu, okeyemi@chapman.edu
-Assignment: Final
-Course: CPSC 357
-Professor Cibrian
+* Rose Ramirez, Jacob Dunkle, Michele Okeyemi
+* roramirez@chapman.edu, dunkle@chapman.edu, okeyemi@chapman.edu
+* Assignment: Final
+* Course: CPSC 357
+* Professor Cibrian
 
 Preferred preview device: iPhone 12 Pro
 
