@@ -15,4 +15,5 @@ NavigationLink (Apple Developers) - https://developer.apple.com/documentation/sw
 How to center the title of navigation bar (Apple Developer Forum) - https://developer.apple.com/forums/thread/682614
 Sky Blue Color (Apple Developers) - https://developer.apple.com/documentation/swiftui/color
 SF Symbols (Apple Developers) - https://developer.apple.com/sf-symbols/
+Checklist guide - https://github.com/MakeAppPiePublishing/Tips_08_04_Checklist_End
 Professor Cibrian’s Project 2 Assignment
