@@ -7,17 +7,18 @@
 
 import SwiftUI
 
-struct ListCell: View {
+struct ListCell: View { //the cell is one item in the list
+    //parameters
     var goal: Goal
     @State var isChecked : Bool = false
-    func toggle() { isChecked = !isChecked }
+    func toggle() { isChecked = !isChecked } //toggle function inverts the check value
     var body: some View {
         NavigationLink(destination: GoalDetail(selectedGoal: goal)) {
             HStack {
-                //show the image
+                //show the button image
                 Button(action: toggle) {
                     Image(systemName: isChecked ? "checkmark.circle" : "circle")
-                }.buttonStyle(BorderlessButtonStyle())
+                }.buttonStyle(BorderlessButtonStyle()) //borderless buttons allow multiple buttons to be in the same cell
                 Text(goal.name)
             }
         }
