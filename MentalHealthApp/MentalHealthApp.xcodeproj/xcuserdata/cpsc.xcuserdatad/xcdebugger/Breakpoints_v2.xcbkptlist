@@ -3,4 +3,54 @@
    uuid = "B2E2516B-749B-4D28-B581-781F3C673281"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEC310E0-D950-4F42-93A7-CCE3D908110C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/GoalDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BEC310E0-D950-4F42-93A7-CCE3D908110C - 4aedaf6688b49791"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MentalHealthApp.GoalDetail.body.getter : some"
+                  moduleName = "MentalHealthApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cpsc/Documents/GitHub/CPSC-357-App3/MentalHealthApp/Shared/GoalDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "450">
+               </Location>
+               <Location
+                  uuid = "BEC310E0-D950-4F42-93A7-CCE3D908110C - f2ed83cca4be07ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Form&lt;SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;&gt; in MentalHealthApp.GoalDetail.body.getter : some"
+                  moduleName = "MentalHealthApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cpsc/Documents/GitHub/CPSC-357-App3/MentalHealthApp/Shared/GoalDetail.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "578">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -4,7 +4,10 @@
 //
 // Created by Rose Ramirez
 // Edited by Jacob Dunkle and Michele Okeyemi
-
+/* Home Page for Mental Health App
+* Allows you to view goals, add a goal
+* Also can view mood and add a mood
+*/
 
 import SwiftUI
 

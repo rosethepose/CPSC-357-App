@@ -1,3 +1,9 @@
+
+/*
+ When a goal is clicked this shows the information of the goal
+ *shows the name, time, and description of current goal
+ */
+
 import SwiftUI
  struct GoalDetail: View {
     var selectedGoal: Goal

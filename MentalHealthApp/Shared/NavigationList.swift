@@ -6,6 +6,13 @@
 //
 
 import SwiftUI
+/**
+ Navigation to List of Goals
+ * Shows current goals in list
+ * Toggle button if goal is completed
+ * Arrow button to see more details
+ * Can also add/edit or delete a goal f
+ */
 
 struct ListCell: View { //the cell is one item in the list
     //parameters

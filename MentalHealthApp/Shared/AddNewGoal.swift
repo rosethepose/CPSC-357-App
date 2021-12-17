@@ -2,8 +2,12 @@
 //  AddNewGoal.swift
 //  MentalHealthApp
 //
-//  Created by cpsc on 12/16/21.
 //
+/* Add new Goal Structure
+ * Template for new goal (name,description. time, is completed)
+ * toggle button if goal is already completed
+ * Add new goal button
+ */
 
 import SwiftUI
 
@@ -28,6 +32,7 @@ struct AddNewGoal: View {
             }
         }
     }
+    // This function creates a new goal to store in json
     func addNewGoal() {
         let newGoal = Goal(id: UUID().uuidString, name: name, time:time, description: description,
                          isChecked: isChecked)
@@ -41,7 +46,9 @@ struct AddNewGoal_Previews: PreviewProvider {
         AddNewGoal(goalStore: GoalStore(goals:goalData))
     }
 }
-
+/*
+ * Takes in userinput for required fields
+ */
 struct DataInput: View {
     var title: String
     @Binding var userInput: String
@@ -56,22 +63,4 @@ struct DataInput: View {
     }
 }
 
-struct IntInput: View {
-    //allows user to enter int input
-    
-    var title: String
-    @Binding var userInt: Int
-        
-    var body: some View {
-            
-        VStack(alignment: HorizontalAlignment.leading) {
-            Text(title)
-                .font(.headline)
-            //format in number and only allow number pad to prevent bad input
-            TextField("Enter \(title)", value: $userInt, formatter: NumberFormatter())
-                .keyboardType(.numberPad)
-        }
-        .padding()
-    }
-}
 

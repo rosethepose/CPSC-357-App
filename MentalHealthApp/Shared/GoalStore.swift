@@ -4,7 +4,9 @@
 //
 //  Created by cpsc on 12/9/21.
 //
-
+/*
+ Stores the Goal structures 
+ */
 import Foundation
 import SwiftUI
 import Combine
